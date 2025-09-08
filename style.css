@@ -16,7 +16,7 @@ header{
 }
 
 nav{
-    width: 800px;
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -32,9 +32,49 @@ ul {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: white;
+}
+
+p{
+    color: #e5e7eb;  
 }
 
 main{
     background-color: #1F2037;
+    padding: 64px;
+    display: flex;
+}
+
+h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 48px;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+
+.hero-left{
+    flex: 1;
+}
+
+.hero-right{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
